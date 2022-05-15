@@ -1,0 +1,6 @@
+com\dimitri\models\Tasks.class
+com\dimitri\controllers\TasksPriorityEnumRestController.class
+com\dimitri\models\Priority.class
+com\dimitri\repositories\TasksRepository.class
+com\dimitri\TodoListAppApplication.class
+com\dimitri\controllers\TasksRestController.class

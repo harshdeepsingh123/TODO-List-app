@@ -17,5 +17,10 @@ pipeline {
             sh 'mvn clean install sonar:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.analysis.mode=publish' 
               }
         }  
+        stage('Custom-Reports'){
+            steps{
+                bat 'mvn site'
+            }
+        }
     }
 }
